@@ -1,5 +1,7 @@
 # Here's a cool animation using JavaScript + HTML5_canvas + CSS3. 
 
+![Animate](https://media.giphy.com/media/ZZlb6eRZHMyNgQh0bb/giphy.gif)
+
 I utilized HTML5 canvas with vanilla JavaScript (no J Query) + some CSS3. JavaScript & Canvas seem to be really hot right now so I thought I would try it out.
 
 
