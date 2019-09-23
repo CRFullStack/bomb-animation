@@ -1,20 +1,13 @@
-# Quickly Set Up Webpack & Babel
+# Here's a cool animation using JavaScript + HTML5_canvas + CSS3. 
 
-## This contains the most basic configurations to get Weback and Babel set up.
+I utilized HTML5 canvas with vanilla JavaScript (no J Query) + some CSS3. JavaScript & Canvas seem to be really hot right now so I thought I would try it out.
 
-All .js files that need to be built will need to be added to the src folder.
 
-This webpack setup can read in multiple .js files by simply adding them to the "entry" object in webpack.config.js.
+Other technologies used were:
+An npm library named canvas-confetti authored by [Kirilv.](https://www.npmjs.com/package/canvas-confetti),
+Node,
+Npm,
+Webpack,
+Babel.
 
-Webpack then builds the files and outputs them to the "dist" folder.
 
-From there you can serve the index.html file in the "dist" folder. You can also directly modify the index.html file in the "dist" folder.
-
-Just download this repo and install all the dependencies using the command:
-### npm install.
-
-After installing the dependencies, you can build the files using the command: 
-### npm run build.
-
-Or you can have the files watched and re-built automatically using the command:
-### npm run watch. 

@@ -1,6 +1,9 @@
 {
-    "README": "THIS IS A BABEL CONFIG FILE, NEEDED TO HOOK UP WEBPACK!",
     "presets": [
       "@babel/preset-env"
-    ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+      ]
+
   }

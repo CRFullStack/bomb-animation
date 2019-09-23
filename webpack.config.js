@@ -26,6 +26,10 @@ module.exports = {
       {
         test: /\.css$/, // this allows us to inject/import css into our js files
         use: ["style-loader", "css-loader"]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"]
       }
     ]
   },
